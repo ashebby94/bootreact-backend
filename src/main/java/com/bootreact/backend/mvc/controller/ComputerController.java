@@ -13,11 +13,11 @@ import java.util.Map;
 
 @RestController
 @RequestMapping(value="/v1/api")
-public class Customer2Controller {
+public class ComputerController {
 
     private Map<Integer, Computer> computerMap;
 
-    public Customer2Controller() {
+    public ComputerController() {
         computerMap = new HashMap<>();
         computerMap.put(1, new Computer(1,"macbook", "95.216.151.235", "5F-CF-C4-1B-5E-9F", "Lagos, Nigeria", "2017-05-14"));
         computerMap.put(2, new Computer(2,"samsung", "66.150.125.57", "CA-6A-A9-A3-D0-80", "New York, USA", "2015-05-11" ));
