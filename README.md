@@ -1,6 +1,6 @@
 # bootreact-backend
 
-Java 8, SpringBoot, H2 JPA,
+Java 8, SpringBoot, MVC with HashMap,
 
 # Run App
 $ mvn spring-boot:run
