@@ -1,21 +1,13 @@
-package com.bootreact.backend.entity;
+package com.bootreact.backend.mvc.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-
-@Entity
 public class Computer {
 
-    @Id
     private int id;
     private String name;
     private String ip;
     private String mac;
     private String location;
     private String date;
-
-    public Computer() {
-    }
 
     public Computer(int id, String name, String ip, String mac, String location, String date) {
         this.id = id;
