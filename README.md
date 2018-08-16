@@ -18,7 +18,7 @@ $ http://localhost:8080/v1/api/computers/1
 **Delete: by id**
 $ http://localhost:8080/v1/api/delete/1
 
-**Post: by id**
+**Post**
 $ http://localhost:8080/v1/api/create
 
 **Further Improvement**
